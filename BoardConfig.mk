@@ -14,7 +14,18 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/o7prolte/
+# MINE
+SHRP_DEVICE_CODE := o7prolte
+SHRP_PATH := device/samsung/o7prolte/
+SHRP_MAINTAINER := Aryan
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/bootdevice/mmcblk0p17
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_AB := false
+SHRP_DARK := true
+SHRP_LITE := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
